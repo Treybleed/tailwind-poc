@@ -2,46 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @font-face {
-    font-family: 'Axiforma';
-    src: url("../assets/fonts/Axiforma-Heavy.eot");
-    src: url("../assets/fonts/Axiforma-Heavy.eot?#iefix") format('embedded-opentype'),
-            url("../assets/fonts/Axiforma-Heavy.svg#Axiforma-Heavy") format('svg'),
-            url("../assets/fonts/Axiforma-Heavy.ttf") format('truetype'),
-            url("../assets/fonts/Axiforma-Heavy.woff") format('woff'),
-            url("../assets/fonts/Axiforma-Heavy.woff2") format('woff2');
-    font-weight: 900;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Gilroy';
-    src: url("../assets/fonts/Gilroy-Regular.eot");
-    src: url("../assets/fonts/Gilroy-Regular.eot?#iefix") format('embedded-opentype'),
-         url("../assets/fonts/Gilroy-Regular.svg#Gilroy-Regular") format('svg'),
-         url("../assets/fonts/Gilroy-Regular.ttf") format('truetype'),
-         url("../assets/fonts/Gilroy-Regular.woff") format('woff'),
-         url("../assets/fonts/Gilroy-Regular.woff2") format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Gilroy Medium';
-    src: url("../assets/fonts/Gilroy-Medium.eot");
-    src: url("../assets/fonts/Gilroy-Medium.eot?#iefix") format('embedded-opentype'),
-         url("../assets/fonts/Gilroy-Medium.svg#Gilroy-Medium") format('svg'),
-         url("../assets/fonts/Gilroy-Medium.ttf") format('truetype'),
-         url("../assets/fonts/Gilroy-Medium.woff") format('woff'),
-         url("../assets/fonts/Gilroy-Medium.woff2") format('woff2');
-    font-weight: normal;
-    font-style: normal;
-} */
-
 @font-face { 
     font-family: 'Montserrat Regular';
     src: url('../assets/fonts/montserrat/Montserrat-Regular.ttf') format('truetype');
     font-style: normal;
     font-weight: 400;
+    font-display: swap;
 }
 
 @font-face { 
@@ -49,6 +15,7 @@
     src: url('../assets/fonts/montserrat/Montserrat-SemiBold.ttf') format('truetype');
     font-style: normal;
     font-weight: 600;
+    font-display: swap;
 }
 
 @font-face { 
@@ -56,4 +23,5 @@
     src: url('../assets/fonts/montserrat/Montserrat-Bold.ttf') format('truetype');
     font-style: normal;
     font-weight: 700;
+    font-display: swap;
 }
